@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    width: 340px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+input[type="submit"] {
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(227, 75, 75);
+    color: white;
+    left: -25px;
+    outline: none;
+    border: none;
+}
+
+.img img {
+    border-radius: 25px;
+}
+
+.cercle {
+    border-radius: 10px;
+}
+
+.cercle2 {
+    border-radius: 50%;
+    margin-top: 380px;
+    margin-right: 300px;
+}
+
+.bi {
+    font-size: 50px !important;
+}
+
+.bi:hover {
+    color: #0d6efd !important;
+}
+
+.card {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-row {
+    position: relative;
+    top: -50px;
+}
+
+.sM {
+    margin-top: 300px;
+    z-index: 2;
+}
+
+.sV {
+    margin-top: 300px;
+    z-index: 2;
+    right: 130px;
+}
+
+footer {
+    padding-top: 200px;
+
+}
+
+footer p {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:1200px) {
+    .box {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .img img {
+        margin: 0 auto;
+    }
+
+    .cercle {
+        margin-right: 10px !important;
+    }
+
+    .cercle2 {
+        margin-right: 380px;
+    }
+
+    .sM, .sV {
+        position: relative !important;
+        width: 100% !important;
+    }
+
+    .sV {
+        margin: 0 auto;
+        left: 0px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        height: 155vh !important;
+    }
+
+    .cercle {
+        margin-right: 100px !important;
+    }
+
+    .cercle2 {
+        margin-right: 380px;
+    }
+
+    .up {
+        margin-bottom: 0 !important;
+    }
+}
